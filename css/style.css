@@ -1,0 +1,191 @@
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ECEEEF;
+}
+/* хедер */
+.header_quote {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+header img {
+  max-width: 100%;
+}
+
+.header_quote {
+  width: 50%;
+}
+
+.header_quote blockquote {
+  margin-left: 0;
+  font: 1.5em Open Sans, Verdana, sans-serif;
+  font-style: italic;
+  color: #fff;
+}
+
+.header_quote hr {
+  width: 14%;
+  border-bottom: none;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.header_quote h3 {
+  font: 1.2em Open Sans, Verdana, sans-serif;
+  font-style: italic;
+  font-weight: 100;
+  color: #fff;
+}
+
+.header_quote h3 span {
+  color: #9BADB1;
+}
+
+.header_button {
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1em 3em;
+  background-color: #49bc1f;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 3px;
+  font: 1em Open Sans, Verdana, sans-serif;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* меню таблицы*/
+section h3 {
+  color: #2a4656;
+  font: 2em Open Sans, Verdana, sans-serif;
+  font-weight: 900;
+  text-align: center;
+  margin: 1em auto;
+}
+
+section hr {
+  border-top: 1px solid #D8DADB;
+  border-bottom: 1px solid #fff;
+  width: 70%;
+}
+
+ul li {
+  text-decoration: none;
+  color: #5e6469;
+  font: 0.9em Open Sans, Verdana, sans-serif;
+  padding: 0.7em 1em;
+  background: #fff;
+  border-radius: 3px;
+  border: 1px solid #D5D7D8;
+  margin-right: 0.25em;
+  margin-left: 0.25em;
+}
+
+ul li:last-child {
+  margin-right: 0;
+}
+
+#table_menu li:hover {
+  background: #3AB03A;
+  box-shadow: inset 1px 1px 2px #229822;
+  color: #fff;
+  cursor: pointer;
+}
+
+#table_menu li {
+  margin-top: 2em;
+  list-style: none;
+}
+
+#table_menu {
+  width: 70%;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* таблица */
+
+#table {
+  width: 70%;
+  border-spacing: 0;
+  margin: 2em auto;
+}
+
+#table td {
+  padding: 1em;
+}
+
+#table tbody td {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #D8DADB;
+  padding: 2em;
+}
+
+#table tbody tr:nth-child(even) {
+  background: #E8EBED;
+}
+
+#table thead {
+  background: #DDE1E3;
+  font: 0.9em Open Sans, Verdana, sans-serif;
+  text-transform: uppercase;
+  color: #85959E;
+}
+
+#table thead td {
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #D8DADB;
+}
+
+#table thead td:nth-last-child(1) {
+  border-right: none;
+}
+
+#table tfoot td {
+  border-top: 1px solid #fff;
+  padding: 0.5em;
+  font-size: 2em;
+  color: #D5D6D7;
+}
+
+#table tfoot td span:hover {
+  color: #006CA9;
+  cursor: pointer;
+}
+
+.green_menu {
+  background: #3AB03A;
+  color: #fff;
+}
+
+.blue_circle {
+  color: #006CA9;
+}
+
+#tbody tr td {
+  font: 0.9em Open Sans, Verdana, sans-serif;
+  color: #666666;
+}

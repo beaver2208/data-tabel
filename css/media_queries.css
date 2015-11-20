@@ -1,0 +1,185 @@
+@media screen and (max-width: 1290px) {
+  .header_quote blockquote {
+    font-size: 1.2em;
+  }
+
+  .header_quote h3 {
+    font-size: 1em;
+  }
+
+  .header_button {
+    font-size: 0.8em;
+    padding: 1em 2em;
+  }
+
+  #table_menu, #table, section hr {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .header_quote blockquote {
+    font-size: 1em;
+  }
+
+  .header_quote h3 {
+    font-size: 0.8em;
+  }
+
+  .header_button {
+    font-size: 0.6em;
+    padding: 1em 2em;
+  }
+
+  #table_menu, #table, section hr {
+    width: 90%;
+  }
+
+  section h3 {
+    font-size: 1.5em;
+  }
+
+  #table_menu li {
+    font-size: 0.8em;
+  }
+
+  #table thead tr td, #tbody tr td {
+    font-size: 0.8em;
+    padding: 1em;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  #table_menu, #table {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .header_quote {
+    top: 0%;
+  }
+
+  .header_button {
+    padding: 0.5em 1em;
+  }
+
+  section h3 {
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .header_quote blockquote {
+    font-size: 0.8em;
+  }
+
+  .header_quote h3 {
+    font-size: 0.6em;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  section h3 {
+    font-size: 1em;
+  }
+
+  #table_menu li {
+    font-size: 0.7em;
+  }
+
+  #tbody tr td {
+    padding: 0.7em 0.5em;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .header_quote blockquote, .header_quote h3, .header_quote hr {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+
+  #table_menu li {
+    font-size: 0.6em;
+  }
+
+  #tbody tr td {
+    font-size: 0.7em;
+    padding: 1em 0.2em;
+  }
+
+  #table thead tr td {
+    padding: 0.7em 0.5em;
+    font-size: 0.7em;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .header_quote blockquote {
+    font-size: 0.6em;
+  }
+
+  .header_quote h3 {
+    font-size: 0.5em;
+  }
+
+  .header_button {
+    padding: 0.4em 1em;
+    font-size: 0.5em;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  #table_menu li {
+    font-size: 0.5em;
+    padding: 0.5em;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .header_quote {
+    width: 60%;
+  }
+
+  .header_quote blockquote {
+    font-size: 0.6em;
+  }
+
+  .header_quote h3 {
+    font-size: 0.5em;
+  }
+
+  .header_button {
+    display: none;
+  }
+
+  #tbody tr td {
+    font-size: 0.6em;
+    padding: 0.5em 0.2em;
+  }
+
+  #table thead tr td {
+    padding: 0.5em 0.3em;
+    font-size: 0.6em;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .header_quote h3, .header_quote hr {
+    display: none;
+  }
+
+  #tbody tr td {
+    font-size: 0.5em;
+    padding: 0.5em 0.2em;
+  }
+
+  #table thead tr td {
+    padding: 0.5em 0.3em;
+    font-size: 0.5em;
+  }
+
+  #table_menu li {
+    padding: 0.1em;
+  }
+}
